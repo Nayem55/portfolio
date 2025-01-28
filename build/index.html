@@ -1,0 +1,1134 @@
+<!DOCTYPE html>
+<html lang="en" class="text-[14px] sm:text-[16px]">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="" type="image/x-icon" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- ion icons link -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <!-- Tailwind CSS CDN Link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Daisy Ui Links -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@2.24.0/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Nayem Sayed</title>
+  </head>
+
+  <body
+    style="font-family: Roboto, sans-serif"
+    class="bg-[#021227] text-[#cccccc]"
+  >
+    <!-- ********************************************** -->
+    <!-- Header Section -->
+    <!-- ********************************************** -->
+
+    <header class="bg-[#021227] max-w-screen-xl mx-auto px-4 py-6">
+      <nav class="">
+        <ul
+          style="font-family: 'Roboto Mono', monospace"
+          class="flex justify-center gap-10 font-semibold"
+        >
+          <!-- <li class=""><a href="#skills" class="transition-all hover:text-[#247032]">Skills</a></li> -->
+          <li class="">
+            <a href="#projects" class="transition-all hover:text-[#05a63b]"
+              >Projects</a
+            >
+          </li>
+          <li class="">
+            <a href="#contact" class="transition-all hover:text-[#05a63b]"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- ********************************************** -->
+    <!-- Hero Section -->
+    <!-- ********************************************** -->
+
+    <section
+      class="flex flex-col-reverse sm:flex-row sm:justify-between sm:items-center bg-[#021227] px-8 sm:px-16 py-4 max-w-screen-xl mt-16 mx-auto"
+    >
+      <!-- left side -->
+      <div class="hidden sm:block h-fit border">
+        <img src="./images/profile.png" alt="hero-img" class="" />
+      </div>
+      <!-- right side -->
+      <div class="sm:w-3/5 flex flex-col items-center">
+        <p
+          style="font-family: 'Roboto Mono', monospace"
+          class="text-[#309543] font-semibold"
+        >
+          Hi, my name is
+        </p>
+        <h2
+          class="text-4xl lg:text-5xl xl:text-6xl font-bold text-[#cccccc] mt-3 lg:mt-7"
+        >
+          NAYEM SAYED.
+        </h2>
+        <h2
+          class="text-3xl lg:text-4xl xl:text-5xl font-bold text-[#309543] mt-3 lg:mt-7"
+        >
+          Full-Stack Developer.
+        </h2>
+        <p class="mt-6 lg:mt-10 max-w-md text-[#cccccc]">
+          I am currently working as a Full stack Web Developer at GVI (Global Village International). I am focused on upgrading my skills regularly as a Full Stack Web Developer specially the forntend part using Node, Express, MongoDb, React, React Native, Tailwind Css Other Css frameworks. <br />
+          I love to build products that can be used by millions of people.
+          <br />
+          <span
+            style="font-family: 'Roboto Mono', monospace"
+            class="font-bold text-[#309543]"
+            >Open for Work & Collaboration.</span
+          >
+        </p>
+        <div class="mt-12">
+          <a
+            href="#skills"
+            style="font-family: 'Roboto Mono', monospace"
+            class="px-6 py-3 text-[#309543] border-2 border-[#309543] font-bold transition-all hover:bg-[#309543] hover:text-[#cccccc] rounded-md"
+            >Check out My Skills !</a
+          >
+        </div>
+        <!-- social Links -->
+        <div class="mt-12">
+          <ul class="flex gap-4">
+            <li class="mr-2 flex justify-center items-center">
+              <a target="_blank" class="w-[35px] h-[35px] cursor-pointer">
+                <ion-icon
+                  name="logo-linkedin"
+                  class="w-[35px] h-[35px] transition-all hover:text-[#309543]"
+                ></ion-icon>
+              </a>
+            </li>
+            <li class="mr-2 flex justify-center items-center">
+              <a
+                href="https://github.com/Nayem55"
+                target="_blank"
+                class="w-[35px] h-[35px]"
+              >
+                <ion-icon
+                  name="logo-github"
+                  class="w-[35px] h-[35px] transition-all hover:text-[#309543]"
+                ></ion-icon>
+              </a>
+            </li>
+            <!-- <li class="mr-2 flex justify-center items-center">
+            <a target="_blank" class="w-[35px] h-[35px] cursor-pointer">
+              <ion-icon name="logo-twitter" class="w-[35px] h-[35px] transition-all hover:text-[#309543]"></ion-icon>
+            </a>
+          </li>
+          <li class="mr-2 flex justify-center items-center">
+            <a target="_blank" class="w-[35px] h-[35px] cursor-pointer">
+              <ion-icon name="logo-instagram" class="w-[35px] h-[35px] transition-all hover:text-[#309543]"></ion-icon>
+            </a>
+          </li> -->
+            <li class="mr-2 flex justify-center items-center">
+              <a
+                href="mailto: nayem.sayed.web@gmail.com"
+                target="_blank"
+                class="w-[35px] h-[35px]"
+              >
+                <ion-icon
+                  name="mail"
+                  class="w-[35px] h-[35px] transition-all hover:text-[#309543]"
+                ></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ********************************************** -->
+    <!-- tech stack Section -->
+    <!-- ********************************************** -->
+
+    <section
+      class="bg-[#021227] px-8 sm:px-16 pt-16 max-w-screen-xl mx-auto"
+      id="skills"
+    >
+      <div class="">
+        <div class="flex justify-center items-center gap-12 pb-12">
+          <div class="h-px flex-1 bg-[#309543] hidden sm:block"></div>
+          <h2 class="text-4xl font-bold">Tech Stack</h2>
+          <div class="h-px flex-1 bg-[#309543] hidden sm:block"></div>
+        </div>
+
+        <!-- skills -->
+        <div
+          class="grid grid-cols-3 sm:grid-cols-5 gap-12"
+          style="font-family: 'Roboto Mono', monospace"
+        >
+          <!-- Skill 01 -->
+          <div class="flex flex-col items-center gap-2">
+            <img
+              src="./images/icons8-html-5-96.svg"
+              alt="html icon"
+              class="w-24 h-24"
+            />
+            <p class="font-semibold text-[#cccccc]">HTML</p>
+          </div>
+
+          <!-- Skill 02 -->
+
+          <div class="flex flex-col items-center gap-2">
+            <img
+              src="./images/icons8-css3-96.svg"
+              alt="css icon"
+              class="w-24 h-24"
+            />
+            <p class="font-semibold text-[#cccccc]">CSS</p>
+          </div>
+
+          <!-- Skill 03 -->
+
+          <div class="flex flex-col items-center gap-2">
+            <img
+              src="./images/tailwind-css.svg"
+              alt="tailwind css icon"
+              class="w-24 h-24"
+            />
+            <p class="font-semibold text-[#cccccc] text-center">Tailwind CSS</p>
+          </div>
+
+          <!-- Skill 04 -->
+
+          <div class="flex flex-col items-center gap-2">
+            <img
+              src="./images/icons8-javascript-96.svg"
+              alt="javascript icon"
+              class="w-24 h-24"
+            />
+            <p class="font-semibold text-[#cccccc]">JavaScript</p>
+          </div>
+          <!-- Skill 04 -->
+
+          <div class="flex flex-col items-center gap-2">
+            <img
+              src="./images/icons8-react-80.svg"
+              alt="javascript icon"
+              class="w-24 h-24"
+            />
+            <p class="font-semibold text-[#cccccc]">React</p>
+          </div>
+          <!-- skill 05 -->
+          <div class="flex flex-col items-center gap-2">
+            <img
+              src="./images/node-js (2).png"
+              alt="javascript icon"
+              class="w-24 h-24"
+            />
+            <p class="font-semibold text-[#cccccc]">Nodejs</p>
+          </div>
+
+          <!-- skill 06 -->
+          <div class="flex flex-col items-center gap-2">
+            <img
+              src="./images/mongoDb.png"
+              alt="javascript icon"
+              class="w-14 h-24"
+            />
+            <p class="font-semibold text-[#cccccc]">MongoDb</p>
+          </div>
+
+          <!-- Skill 07 -->
+
+          <div class="flex flex-col items-center gap-2">
+            <img
+              src="./images/icons8-git-96.svg"
+              alt="git icon"
+              class="w-24 h-24"
+            />
+            <p class="font-semibold text-[#cccccc]">Git</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ****************************************** -->
+    <!-- Some Things I’ve Built Section -->
+    <!-- ****************************************** -->
+
+    <section
+      class="bg-[#021227] px-7 sm:px-14 py-16 max-w-screen-xl mx-auto"
+      id="projects"
+    >
+      <!-- Live Projects -->
+      <div class="mt-20">
+        <h2 class="text-center text-3xl font-semibold">Live Web Projects</h2>
+
+        <!-- projects -->
+
+        <div class="px-5 py-24">
+          <div class="flex flex-wrap gap-y-4 -m-4">
+            <!-- project 9 -->
+            <div class="lg:w-1/3 sm:w-1/2 p-4 bg-[#051830]">
+              <div
+                class="flex relative mentions-project rounded-md h-[48vh] "
+              >
+                <img
+                  alt="web-hosting-landing-page"
+                  class="absolute inset-0 w-full h-full object-cover object-center rounded-md"
+                  src="./images/flormar.png"
+                />
+                <div
+                  class="px-8 py-10 relative z-10 w-full bg-[#051830] transition-all opacity-0 hover:opacity-95"
+                >
+                  <h1 class="title-font text-lg font-medium text-white mb-3">
+                    Flormar Bangladesh
+                  </h1>
+                  <p class="leading-relaxed">
+                    This is a live full-stack project of an ecommerce
+                    application with the functionalities of browsing category
+                    wise products, adding, updating, deleting cart, managing
+                    order and online bkash payment. This project includes complete cms/admin panel to manage the website. It is built using react, Tailwind, node, express, mongoDb and
+                    firebase. This is fully responsive. Due to company policy the github repository is private.
+                  </p>
+                  <div class="flex gap-4 mt-2 justify-start">
+                    <a
+                      href="https://github.com/Nayem55/flormar-web"
+                      target="_blank"
+                      class="w-9 h-9"
+                    >
+                      <ion-icon
+                        name="logo-github"
+                        class="w-8 h-8 transition-all hover:text-[#309543]"
+                      ></ion-icon>
+                    </a>
+                    <a
+                      href="https://flormarbd.com/"
+                      target="_blank"
+                      class="w-9 h-9"
+                    >
+                      <ion-icon
+                        name="desktop-outline"
+                        class="w-8 h-8 transition-all hover:text-[#309543]"
+                      ></ion-icon>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- project 10 -->
+            <div class="lg:w-1/3 sm:w-1/2 p-4 bg-[#051830]">
+              <div
+                class="flex relative mentions-project rounded-md h-[48vh] "
+              >
+                <img
+                  alt="developer-landing-page"
+                  class="absolute inset-0 w-full h-full object-cover object-center rounded-md"
+                  src="./images/clariss.com.bd_.png"
+                />
+                <div
+                  class="px-8 py-10 relative z-10 w-full bg-[#051830] transition-all opacity-0 hover:opacity-95"
+                >
+                  <h1 class="title-font text-lg font-medium text-white mb-3">
+                    Clariss Bangladesh
+                  </h1>
+                  <p class="leading-relaxed">
+                    This is a live full-stack project of an ecommerce
+                    application with the functionalities of browsing category
+                    wise products , adding, updating, deleting cart and managing
+                    order. This project includes complete cms/admin panel to manage the website. It is built using react, Tailwind, node, express, mongoDb and
+                    firebase. This is fully responsive. Due to company policy the github repository is private.
+                  </p>
+                  <div class="flex gap-4 mt-2 justify-start">
+                    <a
+                      href="https://github.com/Nayem55/ClarissBD"
+                      target="_blank"
+                      class="w-9 h-9"
+                    >
+                      <ion-icon
+                        name="logo-github"
+                        class="w-8 h-8 transition-all hover:text-[#309543]"
+                      ></ion-icon>
+                    </a>
+                    <a
+                      href="https://clariss.com.bd/"
+                      target="_blank"
+                      class="w-9 h-9"
+                    >
+                      <ion-icon
+                        name="desktop-outline"
+                        class="w-8 h-8 transition-all hover:text-[#309543]"
+                      ></ion-icon>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- project 11 -->
+            <div class="lg:w-1/3 sm:w-1/2 p-4 bg-[#051830]">
+              <div
+                class="flex relative mentions-project rounded-md h-[48vh] "
+              >
+                <img
+                  alt="developer-landing-page"
+                  class="absolute inset-0 w-full h-full object-cover object-center rounded-md"
+                  src="./images/earthbeautyandyou.com_.png"
+                />
+                <div
+                  class="px-8 py-10 relative z-10 w-full bg-[#051830] transition-all opacity-0 hover:opacity-95"
+                >
+                  <h1 class="title-font text-lg font-medium text-white mb-3">
+                    Earth Beauty & You
+                  </h1>
+                  <p class="leading-relaxed">
+                    This is a live full-stack project of an ecommerce
+                    application with the functionalities of browsing category
+                    wise products , adding, updating, deleting cart and managing
+                    order. This project includes complete cms/admin panel to manage the website. It is built using react, Tailwind, node, express, mongoDb and
+                    firebase. This is fully responsive. Due to company policy the github repository is private.
+                  </p>
+                  <div class="flex gap-4 mt-2 justify-start">
+                    <a
+                      href="https://github.com/Nayem55/Ebay"
+                      target="_blank"
+                      class="w-9 h-9"
+                    >
+                      <ion-icon
+                        name="logo-github"
+                        class="w-8 h-8 transition-all hover:text-[#309543]"
+                      ></ion-icon>
+                    </a>
+                    <a
+                      href="https://earthbeautyandyou.com/"
+                      target="_blank"
+                      class="w-9 h-9"
+                    >
+                      <ion-icon
+                        name="desktop-outline"
+                        class="w-8 h-8 transition-all hover:text-[#309543]"
+                      ></ion-icon>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- project 12 -->
+            <div class="lg:w-1/3 sm:w-1/2 p-4 bg-[#051830]">
+              <div
+                class="flex relative mentions-project rounded-md h-[48vh]"
+              >
+                <img
+                  alt="developer-landing-page"
+                  class="absolute inset-0 w-full h-full object-cover object-center rounded-md"
+                  src="./images/nextcare.png"
+                />
+                <div
+                  class="px-8 py-10 relative z-10 w-full bg-[#051830] transition-all opacity-0 hover:opacity-95"
+                >
+                  <h1 class="title-font text-lg font-medium text-white mb-3">
+                    Nextcare Fragrances
+                  </h1>
+                  <p class="leading-relaxed">
+                    This is a live portfolio project of an perfume factory. It is built using react, Css, Tailwind. This is fully responsive. Due to company policy the github repository is private.
+                  </p>
+                  <div class="flex gap-4 mt-2 justify-start">
+                    <a
+                      href="https://github.com/Nayem55/nextcare-web"
+                      target="_blank"
+                      class="w-9 h-9"
+                    >
+                      <ion-icon
+                        name="logo-github"
+                        class="w-8 h-8 transition-all hover:text-[#309543]"
+                      ></ion-icon>
+                    </a>
+                    <a
+                      href="https://nextcarefragrances.com/"
+                      target="_blank"
+                      class="w-9 h-9"
+                    >
+                      <ion-icon
+                        name="desktop-outline"
+                        class="w-8 h-8 transition-all hover:text-[#309543]"
+                      ></ion-icon>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        
+      </div>
+      <div class="mt-20">
+        <h2 class="text-center text-3xl font-semibold">Live Android Projects</h2>
+
+        <!-- projects -->
+
+        <div class="px-5 py-24">
+          <div class="flex flex-wrap gap-y-4 -m-4">
+            <!-- project 13 -->
+            <div class="lg:w-1/3 sm:w-1/2 p-4 bg-[#051830]">
+              <div
+                class="flex relative mentions-project rounded-md h-[48vh] "
+              >
+                <img
+                  alt="web-hosting-landing-page"
+                  class="absolute inset-0 w-full h-full object-cover object-center rounded-md"
+                  src="./images/luvit_app.png"
+                />
+                <div
+                  class="px-8 py-10 relative z-10 w-full bg-[#051830] transition-all opacity-0 hover:opacity-95"
+                >
+                  <h1 class="title-font text-lg font-medium text-white mb-3">
+                    LuvitBD
+                  </h1>
+                  <p class="leading-relaxed">
+                    This is a live full-stack project of an ecommerce
+                    android application with the functionalities of browsing category
+                    wise products, adding, updating, deleting cart, managing
+                    order. This project includes complete cms/admin panel to manage the app. It is built using react, react native, expo, eas, node, express, mongoDb and
+                    firebase. This is fully responsive. Due to company policy the github repository is private.
+                  </p>
+                  <div class="flex gap-4 mt-2 justify-start">
+                    <a
+                      href="https://github.com/Nayem55/luvit-android-51"
+                      target="_blank"
+                      class="w-9 h-9"
+                    >
+                      <ion-icon
+                        name="logo-github"
+                        class="w-8 h-8 transition-all hover:text-[#309543]"
+                      ></ion-icon>
+                    </a>
+                    <a
+                      href="https://play.google.com/store/apps/details?id=luvit.bd.app"
+                      target="_blank"
+                      class="w-9 h-9"
+                    >
+                      <ion-icon
+                        name="desktop-outline"
+                        class="w-8 h-8 transition-all hover:text-[#309543]"
+                      ></ion-icon>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+
+      </div>
+
+
+      <div class="flex items-center justify-center gap-12 pb-12">
+        <div class="h-px flex-1 bg-[#309543] hidden sm:block"></div>
+        <h2 class="text-4xl font-bold text-center">Frontend Projects</h2>
+        <div class="h-px flex-1 bg-[#309543] hidden sm:block"></div>
+      </div>
+
+      <!-- featured projects -->
+      <div>
+        <!-- featured project 01 -->
+        <div class="flex flex-col sm:flex-row sm:gap-12 mt-20">
+          <!-- left side -->
+          <div
+            class="mockup-window border border-base-300 sm:w-1/2 h-[300px] order-2 sm:order-none"
+          >
+            <div
+              class="featured-project-img-01-div cursor-all-scroll overflow-scroll h-[300px] rounded"
+            >
+              <div class="featured-project-img-01 transition-all duration-500">
+                <img src="./images/redOnionSS.png" alt="paytm clone" class="" />
+              </div>
+            </div>
+          </div>
+
+          <!-- right side -->
+          <div
+            class="sm:w-1/2 h-[300px] flex flex-col justify-center order-1 sm:order-none"
+          >
+            <h2
+              class="sm:text-end text-3xl font-bold mb-8 sm:relative sm:right-[10%] lg:right-1/4"
+            >
+              01.Red Onion Restaurant App
+            </h2>
+            <p
+              class="bg-[#051830] pl-8 pr-2 py-4 mb-2 rounded shadow-sm sm:relative sm:right-[10%] lg:right-1/4 text-[#ffffff78]"
+            >
+              This is a project of an online food ordering system, built using
+              HTML5, React, Tailwid CSS and Firebase Authentication. <br />
+              <span class="text-[#309543] font-medium"
+                >This Site is Fully Responsive</span
+              >
+            </p>
+            <div
+              style="font-family: 'Roboto Mono', monospace"
+              class="sm:relative sm:right-[10%] lg:right-1/4"
+            >
+              <ul class="flex gap-4 sm:justify-end text-sm">
+                <li>HTML5</li>
+                <li>React</li>
+                <li>Tailwind CSS</li>
+                <li>Firebase</li>
+              </ul>
+            </div>
+            <div
+              class="flex gap-4 mt-2 sm:justify-end sm:relative sm:right-[10%] lg:right-1/4"
+            >
+              <a
+                href="https://github.com/Nayem55/red-onion.git"
+                target="_blank"
+                class="w-9 h-9"
+              >
+                <ion-icon
+                  name="logo-github"
+                  class="w-8 h-8 transition-all hover:text-[#309543]"
+                ></ion-icon>
+              </a>
+              <a
+                href="https://red-onion-nayem7007.netlify.app"
+                target="_blank"
+                class="w-9 h-9"
+              >
+                <ion-icon
+                  name="desktop-outline"
+                  class="w-8 h-8 transition-all hover:text-[#309543]"
+                ></ion-icon>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- featured project 02 -->
+        <div class="flex flex-col sm:flex-row sm:gap-12 mt-20 sm:mt-20">
+          <!-- right side -->
+          <div class="sm:w-1/2 h-[300px] flex flex-col justify-center">
+            <h2
+              class="text-3xl font-bold mb-8 sm:relative sm:left-[10%] lg:left-1/4"
+            >
+              02. Panda Ecommerce Website
+            </h2>
+            <p
+              class="bg-[#051830] pl-8 pr-2 py-4 mb-2 rounded shadow-sm sm:relative sm:left-[10%] lg:left-1/4 z-40 text-[#ffffff78]"
+            >
+              This is a small ecommerce website design, built using HTML5, CSS
+              and Bootstrao. <br />
+              <span class="text-[#309543] font-medium"
+                >This Site is Fully Responsive</span
+              >
+            </p>
+            <div
+              style="font-family: 'Roboto Mono', monospace"
+              class="sm:relative sm:left-[10%] lg:left-1/4"
+            >
+              <ul class="flex gap-4 justify-start text-sm">
+                <li>HTML5</li>
+                <li>Bootstrap</li>
+                <li>CSS</li>
+              </ul>
+            </div>
+            <div
+              class="flex gap-4 mt-2 justify-start sm:relative sm:left-[10%] lg:left-1/4"
+            >
+              <a
+                href="https://github.com/Nayem55/Panda.git"
+                target="_blank"
+                class="w-9 h-9"
+              >
+                <ion-icon
+                  name="logo-github"
+                  class="w-8 h-8 transition-all hover:text-[#309543]"
+                ></ion-icon>
+              </a>
+              <a
+                href="https://nayem55.github.io/Panda/"
+                target="_blank"
+                class="w-9 h-9"
+              >
+                <ion-icon
+                  name="desktop-outline"
+                  class="w-8 h-8 transition-all hover:text-[#309543]"
+                ></ion-icon>
+              </a>
+            </div>
+          </div>
+
+          <!-- left side -->
+          <div class="mockup-window border border-base-300 sm:w-1/2 h-[300px]">
+            <div
+              class="featured-project-img-01-div cursor-all-scroll overflow-scroll h-[300px] rounded"
+            >
+              <div class="featured-project-img-01 transition-all duration-500">
+                <img
+                  src="./images/Panda.png"
+                  alt="rode website clone"
+                  class=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- featured project 03 -->
+        <div class="flex flex-col sm:flex-row sm:gap-12 mt-20 sm:mt-20">
+          <!-- left side -->
+          <div
+            class="mockup-window border border-base-300 sm:w-1/2 h-[300px] order-2 sm:order-none"
+          >
+            <div
+              class="featured-project-img-01-div cursor-all-scroll overflow-scroll h-[300px] rounded"
+            >
+              <div class="featured-project-img-01 transition-all duration-500">
+                <img src="./images/PhoneGallery.png" alt="shopify clone" />
+              </div>
+            </div>
+          </div>
+
+          <!-- right side -->
+          <div class="sm:w-1/2 h-[300px] flex flex-col justify-center">
+            <h2
+              class="sm:text-end text-3xl font-bold mb-8 sm:relative sm:right-[10%] lg:right-1/4"
+            >
+              03. Phone Gallery
+            </h2>
+            <p
+              class="bg-[#051830] pl-8 pr-2 py-4 mb-2 rounded shadow-sm sm:relative sm:right-[10%] lg:right-1/4 text-[#ffffff78]"
+            >
+              This is a project of searching phone by it's model name and see
+              phone details.This is built using HTML5, CSS3 and JavaScript.
+              <br />
+              <span class="text-[#309543] font-medium"
+                >This Site is Fully Responsive</span
+              >
+            </p>
+            <div
+              style="font-family: 'Roboto Mono', monospace"
+              class="sm:relative sm:right-[10%] lg:right-1/4"
+            >
+              <ul class="flex gap-4 sm:justify-end text-sm">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+              </ul>
+            </div>
+            <div
+              class="flex gap-4 mt-2 sm:justify-end sm:relative sm:right-[10%] lg:right-1/4"
+            >
+              <a
+                href="https://github.com/Nayem55/Phone_Gallery"
+                target="_blank"
+                class="w-9 h-9"
+              >
+                <ion-icon
+                  name="logo-github"
+                  class="w-8 h-8 transition-all hover:text-[#309543]"
+                ></ion-icon>
+              </a>
+              <a
+                href="https://nayem55.github.io/Phone_Gallery/"
+                target="_blank"
+                class="w-9 h-9"
+              >
+                <ion-icon
+                  name="desktop-outline"
+                  class="w-8 h-8 transition-all hover:text-[#309543]"
+                ></ion-icon>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Honorable Mentions -->
+      <div class="mt-20">
+        <h2 class="text-center text-3xl font-semibold">Full-Stack Projects</h2>
+
+        <!-- projects -->
+
+        <div class="px-5 py-24">
+          <div class="flex flex-wrap gap-y-4 -m-4">
+            <!-- project 8 -->
+            <div class="lg:w-1/3 sm:w-1/2 p-4 bg-[#051830]">
+              <div
+                class="flex relative mentions-project rounded-md h-[48vh] overflow-y-scroll"
+              >
+                <img
+                  alt="web-hosting-landing-page"
+                  class="absolute inset-0 w-full h-full object-cover object-center rounded-md"
+                  src="./images/fragrance.png"
+                />
+                <div
+                  class="px-8 py-10 relative z-10 w-full bg-[#051830] transition-all opacity-0 hover:opacity-95"
+                >
+                  <h1 class="title-font text-lg font-medium text-white mb-3">
+                    Fragrance
+                  </h1>
+                  <p class="leading-relaxed">
+                    This is a full-stack project of a complete ecommerce
+                    application with the functionalities of browsing category
+                    wise products , adding, updating, deleting cart and managing
+                    order with some extra features like 10% discount on first
+                    parchase,buy 2 get 1 free and buy 3 or more get 2 free. This
+                    is built using react, Tailwind, node, express, mongoDb and
+                    firebase. This is fully responsive.
+                  </p>
+                  <div class="flex gap-4 mt-2 justify-start">
+                    <a
+                      href="https://github.com/Nayem55/Fragrance-frontend"
+                      target="_blank"
+                      class="w-9 h-9"
+                    >
+                      <ion-icon
+                        name="logo-github"
+                        class="w-8 h-8 transition-all hover:text-[#309543]"
+                      ></ion-icon>
+                    </a>
+                    <a
+                      href="https://fragrance-web-7007.netlify.app/"
+                      target="_blank"
+                      class="w-9 h-9"
+                    >
+                      <ion-icon
+                        name="desktop-outline"
+                        class="w-8 h-8 transition-all hover:text-[#309543]"
+                      ></ion-icon>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- project 4 -->
+            <div class="lg:w-1/3 sm:w-1/2 p-4 bg-[#051830]">
+              <div
+                class="flex relative mentions-project rounded-md h-[48vh] overflow-y-scroll"
+              >
+                <img
+                  alt="developer-landing-page"
+                  class="absolute inset-0 w-full h-full object-cover object-center rounded-md"
+                  src="./images//fruitify.png"
+                />
+                <div
+                  class="px-8 py-10 relative z-10 w-full bg-[#051830] transition-all opacity-0 hover:opacity-95"
+                >
+                  <h1 class="title-font text-lg font-medium text-white mb-3">
+                    Fruitify Warehouse Management
+                  </h1>
+                  <p class="leading-relaxed">
+                    This is a full-stack project of a warehouse management
+                    system with the functionalities of adding and managing
+                    storage. This is built using react, bootstrap, node,
+                    express, mongoDb and firebase.
+                  </p>
+                  <div class="flex gap-4 mt-2 justify-start">
+                    <a
+                      href="https://github.com/Nayem55/Fruits-warehouse"
+                      target="_blank"
+                      class="w-9 h-9"
+                    >
+                      <ion-icon
+                        name="logo-github"
+                        class="w-8 h-8 transition-all hover:text-[#309543]"
+                      ></ion-icon>
+                    </a>
+                    <a
+                      href="https://fruitify-warehouse-web-7007.netlify.app"
+                      target="_blank"
+                      class="w-9 h-9"
+                    >
+                      <ion-icon
+                        name="desktop-outline"
+                        class="w-8 h-8 transition-all hover:text-[#309543]"
+                      ></ion-icon>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- project 5 -->
+            <div class="lg:w-1/3 sm:w-1/2 p-4 bg-[#051830]">
+              <div
+                class="flex relative mentions-project rounded-md h-[48vh] overflow-y-scroll"
+              >
+                <img
+                  alt="developer-landing-page"
+                  class="absolute inset-0 w-full h-full object-cover object-center rounded-md"
+                  src="./images/denturo.png"
+                />
+                <div
+                  class="px-8 py-10 relative z-10 w-full bg-[#051830] transition-all opacity-0 hover:opacity-95"
+                >
+                  <h1 class="title-font text-lg font-medium text-white mb-3">
+                    Denturo Dental Clinic Service
+                  </h1>
+                  <p class="leading-relaxed">
+                    This is a full-stack project of a dental clinic service with
+                    the functionalities of making appointments and conditional
+                    rendering for admin and user role. This is built using
+                    react, tailwind CSS, daisy UI, express, mongoDb, payment
+                    gateway.
+                  </p>
+                  <div class="flex gap-4 mt-2 justify-start">
+                    <a
+                      href="https://github.com/Nayem55/denturo-client"
+                      target="_blank"
+                      class="w-9 h-9"
+                    >
+                      <ion-icon
+                        name="logo-github"
+                        class="w-8 h-8 transition-all hover:text-[#309543]"
+                      ></ion-icon>
+                    </a>
+                    <a
+                      href="https://denturo-dental-clinic-7007.netlify.app/"
+                      target="_blank"
+                      class="w-9 h-9"
+                    >
+                      <ion-icon
+                        name="desktop-outline"
+                        class="w-8 h-8 transition-all hover:text-[#309543]"
+                      ></ion-icon>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- project 6 -->
+            <div class="lg:w-1/3 sm:w-1/2 p-4 bg-[#051830]">
+              <div
+                class="flex relative mentions-project rounded-md h-[48vh] overflow-y-scroll"
+              >
+                <img
+                  alt="web-hosting-landing-page"
+                  class="absolute inset-0 w-full h-full object-cover object-center rounded-md"
+                  src="./images/emajohn.png"
+                />
+                <div
+                  class="px-8 py-10 relative z-10 w-full bg-[#051830] transition-all opacity-0 hover:opacity-95"
+                >
+                  <h1 class="title-font text-lg font-medium text-white mb-3">
+                    Ema-John Ecommerce Store
+                  </h1>
+                  <p class="leading-relaxed">
+                    This is a full-stack project of a small ecommerce store with
+                    the functionalities of adding cart and managing order. This
+                    is built using react, bootstrap, node, express, mongoDb and
+                    firebase. This is fully responsive.
+                  </p>
+                  <div class="flex gap-4 mt-2 justify-start">
+                    <a
+                      href="https://github.com/Nayem55/Ema-John"
+                      target="_blank"
+                      class="w-9 h-9"
+                    >
+                      <ion-icon
+                        name="logo-github"
+                        class="w-8 h-8 transition-all hover:text-[#309543]"
+                      ></ion-icon>
+                    </a>
+                    <a
+                      href="https://ema-john-nayem-web10.netlify.app"
+                      target="_blank"
+                      class="w-9 h-9"
+                    >
+                      <ion-icon
+                        name="desktop-outline"
+                        class="w-8 h-8 transition-all hover:text-[#309543]"
+                      ></ion-icon>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- project 7 -->
+            <div class="lg:w-1/3 sm:w-1/2 p-4 bg-[#051830]">
+              <div
+                class="flex relative mentions-project rounded-md h-[48vh] overflow-y-scroll"
+              >
+                <img
+                  alt="web-hosting-landing-page"
+                  class="absolute inset-0 w-full h-full object-cover object-center rounded-md"
+                  src="./images/todo.png"
+                />
+                <div
+                  class="px-8 py-10 relative z-10 w-full bg-[#051830] transition-all opacity-0 hover:opacity-95"
+                >
+                  <h1 class="title-font text-lg font-medium text-white mb-3">
+                    Todo App
+                  </h1>
+                  <p class="leading-relaxed">
+                    This is a full-stack project of a todo application with the
+                    functionalities of adding, updating deleting and managing
+                    tasks. This is built using react, Tailwind Css, node,
+                    express, mongoDb and firebase. This is fully responsive.
+                  </p>
+                  <div class="flex gap-4 mt-2 justify-start">
+                    <a
+                      href="https://github.com/Nayem55/Todo-app"
+                      target="_blank"
+                      class="w-9 h-9"
+                    >
+                      <ion-icon
+                        name="logo-github"
+                        class="w-8 h-8 transition-all hover:text-[#309543]"
+                      ></ion-icon>
+                    </a>
+                    <a
+                      href="https://tickandtock-todo-app-nayem55.netlify.app/"
+                      target="_blank"
+                      class="w-9 h-9"
+                    >
+                      <ion-icon
+                        name="desktop-outline"
+                        class="w-8 h-8 transition-all hover:text-[#309543]"
+                      ></ion-icon>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- project 12 -->
+            <div class="lg:w-1/3 sm:w-1/2 p-4 bg-[#051830]">
+                  <div
+                    class="flex relative mentions-project rounded-md h-[48vh] overflow-y-scroll"
+                  >
+                    <img
+                      alt="web-hosting-landing-page"
+                      class="absolute inset-0 w-full h-full object-cover object-center rounded-md"
+                      src="./images/eazy-mart-nayem-web10.netlify.app_.png"
+                    />
+                    <div
+                      class="px-8 py-10 relative z-10 w-full bg-[#051830] transition-all opacity-0 hover:opacity-95"
+                    >
+                      <h1 class="title-font text-lg font-medium text-white mb-3">
+                        Eazy Mart
+                      </h1>
+                      <p class="leading-relaxed">
+                        This is a basic design of a multi vendor website like daraz.This
+                        is built using next js, Tailwind, node, express, mongoDb and
+                        firebase.
+                      </p>
+                      <div class="flex gap-4 mt-2 justify-start">
+                        <a
+                          href="https://github.com/Nayem55/EazyMart"
+                          target="_blank"
+                          class="w-9 h-9"
+                        >
+                          <ion-icon
+                            name="logo-github"
+                            class="w-8 h-8 transition-all hover:text-[#309543]"
+                          ></ion-icon>
+                        </a>
+                        <a
+                          href="https://eazy-mart-nayem-web10.netlify.app/"
+                          target="_blank"
+                          class="w-9 h-9"
+                        >
+                          <ion-icon
+                            name="desktop-outline"
+                            class="w-8 h-8 transition-all hover:text-[#309543]"
+                          ></ion-icon>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+                
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      class="bg-[#021227] px-7 sm:px-14 py-16 max-w-screen-xl mx-auto"
+      id="projects"
+    >
+
+    <!-- ****************************************** -->
+    <!-- Call To Action Section -->
+    <!-- ****************************************** -->
+
+    <section
+      class="bg-[#021227] px-7 sm:px-14 py-16 max-w-screen-xl mx-auto"
+      id="contact"
+    >
+      <div class="flex items-center justify-center gap-12 pb-12">
+        <div class="h-px flex-1 bg-[#309543] hidden sm:block"></div>
+        <h2 class="text-4xl font-bold">Get In Touch</h2>
+        <div class="h-px flex-1 bg-[#309543] hidden sm:block"></div>
+      </div>
+
+      <div class="mt-12 flex justify-center">
+        <ul class="flex gap-4">
+          <li class="mr-2 flex justify-center items-center">
+            <a
+              href="mailto: nayem.sayed.web@gmail.com"
+              target="_blank"
+              class="w-[35px] h-[35px]"
+            >
+              <ion-icon
+                name="mail"
+                class="w-[35px] h-[35px] transition-all hover:text-[#309543]"
+              ></ion-icon>
+            </a>
+          </li>
+          <li class="mr-2 flex justify-center items-center">
+            <a target="_blank" class="w-[35px] h-[35px] cursor-pointer">
+              <ion-icon
+                name="logo-linkedin"
+                class="w-[35px] h-[35px] transition-all hover:text-[#309543]"
+              ></ion-icon>
+            </a>
+          </li>
+          <li class="mr-2 flex justify-center items-center">
+            <a
+              href="https://github.com/Nayem55"
+              target="_blank"
+              class="w-[35px] h-[35px]"
+            >
+              <ion-icon
+                name="logo-github"
+                class="w-[35px] h-[35px] transition-all hover:text-[#309543]"
+              ></ion-icon>
+            </a>
+          </li>
+          <!-- <li class="mr-2 flex justify-center items-center">
+          <a target="_blank" class="w-[35px] h-[35px] cursor-pointer">
+            <ion-icon name="logo-twitter" class="w-[35px] h-[35px] transition-all hover:text-[#309543]"></ion-icon>
+          </a>
+        </li>
+        <li class="mr-2 flex justify-center items-center">
+          <a target="_blank" class="w-[35px] h-[35px] cursor-pointer">
+            <ion-icon name="logo-instagram" class="w-[35px] h-[35px] transition-all hover:text-[#309543]"></ion-icon>
+          </a>
+        </li> -->
+        </ul>
+      </div>
+    </section>
+  </body>
+</html>
